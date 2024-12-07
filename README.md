@@ -1,4 +1,5 @@
 **Overview**
+
 This project implements a biometric security system using an embedded microcontroller and gyroscope sensor. Users can record specific hand movements as their "password" and later replicate these movements for authentication. The system processes the gesture data in real-time and compares it against stored patterns to grant or deny access.
 Features
 
@@ -10,6 +11,7 @@ Optimized memory usage for gesture storage
 Simple one-button interface for mode switching
 
 **Hardware Requirements**
+
 
 STM32 Development Board
 Integrated Gyroscope Sensor
