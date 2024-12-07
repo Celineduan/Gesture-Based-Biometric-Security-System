@@ -1,4 +1,4 @@
-Overview
+**Overview**
 This project implements a biometric security system using an embedded microcontroller and gyroscope sensor. Users can record specific hand movements as their "password" and later replicate these movements for authentication. The system processes the gesture data in real-time and compares it against stored patterns to grant or deny access.
 Features
 
@@ -9,14 +9,14 @@ Configurable sensitivity thresholds
 Optimized memory usage for gesture storage
 Simple one-button interface for mode switching
 
-Hardware Requirements
+**Hardware Requirements**
 
 STM32 Development Board
 Integrated Gyroscope Sensor
 LED Indicators (Green and Red)
 User Button
 
-Pin Configuration
+**Pin Configuration**
 
 MOSI: PF_9
 MISO: PF_8
@@ -26,7 +26,7 @@ USER_BUTTON: PA_0
 GREEN_LED: PG_13
 RED_LED: PG_14
 
-Software Dependencies
+**Software Dependencies**
 
 PlatformIO
 Mbed Framework
